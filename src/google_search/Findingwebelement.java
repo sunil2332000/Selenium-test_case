@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/google_search/Findingwebelement.java
 package google_search;
+=======
+package webelement;
+>>>>>>> 5e0ab643eb223b700df68a19924d284959c73ec2:src/webelement/Findingwebelement.java
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/google_title_check/Opengoogle.java
 package google_title_check;
+=======
+package selenium;
+>>>>>>> 5e0ab643eb223b700df68a19924d284959c73ec2:src/selenium/Opengoogle.java
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
