@@ -1,27 +1,25 @@
 
-package google_title_check;
+package google_search;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.Keys;
 
-public class Opengoogle {
 
+public class Findingwebelement {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//1.open chrome
-		//2.google home page
 		System.setProperty("webdriver.chrome.driver", "D:\\selenium tutorial\\chromedriver.exe");
-		
 		WebDriver driver = new ChromeDriver();
-		
 		driver.get("http://www.google.co.in");
-		String google;
-		google=driver.getTitle();
-		System.out.println(google);
-		//
-
+		//enter a search term
+		
+		driver.findElement(By.name("q")).sendKeys("prithvi missile" + Keys.ENTER);
+		driver.get("https://en.wikipedia.org ");
+		driver.findElement(By.linkText("Prithvi (missile) - Wikipedia")).click();
+		
+		
+		//driver.quit();
 	}
-
 }
-
