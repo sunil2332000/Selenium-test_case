@@ -15,7 +15,7 @@ public class DragAndDrop_Demo {
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.leafground.com/pages/drop.html");
 		
-		//1.
+		//1.Drag and drop
 		WebElement From_Drag=driver.findElement(By.id("draggable"));
 		WebElement To_Drop=driver.findElement(By.id("droppable"));
 		
